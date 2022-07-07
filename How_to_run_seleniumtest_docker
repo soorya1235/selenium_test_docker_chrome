@@ -1,0 +1,21 @@
+1.Install Docker on windows
+
+2.pull selenium/stanalone chrome driver
+
+3.docker run -p 4444:4444 --name seleniumgrid selenium/standalone-chrome
+(use -p or leave it it will run in background)
+
+4.http://localhost:4444
+
+5.Go to sesssion manager.
+
+6.it will ask for password
+
+7.password is secret.
+
+8.you can see the test in the vnc player.
+
+===============
+Refer testingminibytes channel..
+
+https://www.youtube.com/watch?v=daILiXCLom8&t=1186s
